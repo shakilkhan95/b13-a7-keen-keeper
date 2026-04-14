@@ -8,11 +8,11 @@ const Navbar = () => {
   const [activeTab, setActiveTab] = useState('home');
 
     return (
-      <header className="py-4 px-10 lg:px-20 sticky top-0 z-10 flex justify-between items-center shadow">
+      <header className="py-4 px-7 md:px-10 lg:px-20 sticky top-0 z-10 flex justify-between items-center shadow bg-white">
         <div>
           <Link href={"/"}>
             <h3
-              className="text-2xl font-extrabold cursor-pointer"
+              className="text-lg md:text-2xl font-extrabold cursor-pointer"
               style={{ color: "#1F2937" }}
             >
               Keen<span style={{ color: "#244D3F" }}>Keeper</span>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <button
               onClick={() => setActiveTab("home")}
-              className="text-base font-semibold px-4 py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
+              className="text-base font-semibold px-2 py-1 md:px-4 md:py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
               style={
                 activeTab === "home"
                   ? { backgroundColor: "#244D3F", color: "white" }
@@ -32,14 +32,14 @@ const Navbar = () => {
               }
             >
               <House />
-              Home
+              <span className="hidden md:inline-block">Home</span>
             </button>
           </Link>
 
           <Link href={"/timeline"}>
             <button
               onClick={() => setActiveTab("timeline")}
-              className="text-base font-semibold text-white px-4 py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
+              className="text-base font-semibold text-white px-2 py-1 md:px-4 md:py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
               style={
                 activeTab === "timeline"
                   ? { backgroundColor: "#244D3F", color: "white" }
@@ -47,14 +47,14 @@ const Navbar = () => {
               }
             >
               <Watch />
-              Timeline
+              <span className="hidden md:inline-block">Timeline</span>
             </button>
           </Link>
 
           <Link href={"/stats"}>
             <button
               onClick={() => setActiveTab("stats")}
-              className="text-base font-semibold text-white px-4 py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
+              className="text-base font-semibold text-white px-2 py-1 md:px-4 md:py-3 rounded-md flex gap-1 items-center cursor-pointer shadow-md transition-shadow duration-300 hover:shadow-lg"
               style={
                 activeTab === "stats"
                   ? { backgroundColor: "#244D3F", color: "white" }
@@ -62,7 +62,7 @@ const Navbar = () => {
               }
             >
               <ChartLine />
-              Stats
+              <span className="hidden md:inline-block">Stats</span>
             </button>
           </Link>
         </div>
