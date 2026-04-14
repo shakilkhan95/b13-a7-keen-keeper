@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "KeenKeeper | Friends to keep close in your life",
   description: "KeenKeeper | Friends to keep close in your life",
+  icons: {
+    icon: '/favicon.png'
+  },
 };
 
 export default function RootLayout({ children }) {
