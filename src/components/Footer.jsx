@@ -1,4 +1,3 @@
-import React from 'react';
 import footerLogo from '@/assets/logo-xl.png'
 import instagramIcon from '@/assets/instagram.png'
 import facebookIcon from '@/assets/facebook.png'
