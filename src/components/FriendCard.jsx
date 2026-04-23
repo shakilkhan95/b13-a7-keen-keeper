@@ -1,4 +1,5 @@
 import Image from "next/image";
+import StatusBadge from "./StatusBadge";
 
 const FriendCard = ({ friend }) => {
   const { picture, name, days_since_contact, tags, status } = friend;
@@ -32,6 +33,10 @@ const FriendCard = ({ friend }) => {
             {tag}
           </span>
         ))}
+      </div>
+
+      <div className="mt-3">
+        <StatusBadge status = {status}/>
       </div>
     </div>
   );
