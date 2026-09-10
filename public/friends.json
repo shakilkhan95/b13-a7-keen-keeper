@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Denji",
+    "picture": "https://i.ibb.co.com/WpD5mqxw/image.png",
+    "email": "denji@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university days. We used to code and explore tech ideas together.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 2,
+    "name": "Mikasa",
+    "picture": "https://i.ibb.co.com/Kkm3cMZ/image.png",
+    "email": "mikasa@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school", "best friend"],
+    "bio": "School friend. We still share everything from life updates to random memes.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Levi",
+    "picture": "https://i.ibb.co.com/VYby7L1b/image.png",
+    "email": "levi@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["office", "colleague"],
+    "bio": "Works with me in a startup. We often discuss projects and productivity tips.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 4,
+    "name": "Sakura",
+    "picture": "https://i.ibb.co.com/vCXfNC78/image.png",
+    "email": "sakura@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["university", "group mate"],
+    "bio": "Group project partner in university. Haven’t caught up in a while.",
+    "goal": 10,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 5,
+    "name": "Naruto",
+    "picture": "https://i.ibb.co.com/Ndx3kRHD/image.png",
+    "email": "naruto@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Gym partner who motivates me to stay consistent and healthy.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 6,
+    "name": "Sasuke",
+    "picture": "https://i.ibb.co.com/b5D5XV16/image.png",
+    "email": "sasuke@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["developer", "community"],
+    "bio": "Met in a developer community. We share coding resources and ideas.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 7,
+    "name": "Suzume",
+    "picture": "https://i.ibb.co.com/rfw3GP3c/image.png",
+    "email": "suzume@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Grew up in the same neighborhood. Always supportive and kind.",
+    "goal": 10,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 8,
+    "name": "Yuzi Itadori",
+    "picture": "https://i.ibb.co.com/cSBhwLzm/image.png",
+    "email": "yuzi.itadori@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["football", "friend"],
+    "bio": "Football buddy. We play every weekend and hang out after matches.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  }
+]
