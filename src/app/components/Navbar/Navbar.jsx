@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navbar Logo */}
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-bold text-2xl hidden lg:block">
             <Link href="/">
               Keen<span className="text-green-800">Keeper</span>
             </Link>
