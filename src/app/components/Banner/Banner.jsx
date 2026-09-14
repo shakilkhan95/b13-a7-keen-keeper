@@ -13,7 +13,7 @@ const banner = () => {
           <button className="btn bg-green-800 text-white">Add a friend</button>
         </div>
 
-        {/* Stats card section */}
+        {/* Stats cards section */}
         <div className="w-11/12 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-5 justify-center mt-10">
           <div className="shadow-xl text-center rounded-2xl py-8 px-5 bg-gray-200 transition duration-300 hover:bg-green-100 hover:border-green-400">
             <h1 className="text-2xl font-semibold text-green-800">08</h1>
