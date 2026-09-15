@@ -1,12 +1,12 @@
-import Banner from "./components/Banner/Banner";
 import Friends from "../../public/friends.json";
-import FriendCards from "./components/Ui/FriendCards/FriendCards";
+import Banner from "../components/Banner/Banner";
+import FriendCards from "../components/Ui/FriendCards/FriendCards";
 
 export default function Home() {
     return(
         <>
         <div className="bg-[#F8FAFC]">
-           <Banner />
+            <Banner />
 
            {/* Friends Section */}
            <div className="w-11/12 mx-auto">
