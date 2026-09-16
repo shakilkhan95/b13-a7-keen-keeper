@@ -7,7 +7,7 @@ const NotFoundPage = () => {
         <main className="min-h-screen flex flex-col items-center justify-center bg-base-100 text-center px-6 py-12">
           <div className="relative w-full max-w-lg mb-12">
             <Image
-              src="/404Image-removebg-preview.png"
+              src="/404Image-removebg-preview.jpg"
               alt="Not Found"
               width={600}
               height={600}

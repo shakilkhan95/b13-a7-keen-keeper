@@ -77,7 +77,7 @@ const Navbar = () => {
           </h1>
 
           {/* Desktop Navbar Links */}
-          <div className="hidden lg:flex flex-col lg:flex-row gap-">
+          <div className="hidden lg:flex flex-col lg:flex-row gap-2.5">
               <Link
                 href="/"
                 className={`btn flex items-center gap-2 ${pathName === "/" ? "bg-green-700 text-white" : "bg-gray-300 text-black"}`}
