@@ -2,6 +2,7 @@
 
 import { FriendContext } from "@/contexts/FriendsProvider";
 import { useContext } from "react";
+import { toast } from "react-toastify";
 
 const FilterButton = () => {
     const {timeLine, setTimeLine, filter, setFilter} = useContext(FriendContext);
