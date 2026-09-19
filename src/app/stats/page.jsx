@@ -1,3 +1,4 @@
+import ActivityChart from "@/components/Charts/ActivityChart";
 import Link from "next/link";
 
 export const metadata = {
@@ -14,7 +15,7 @@ const StatsPage = () => {
                 <div className="shadow mt-10 py-10 bg-gray-200">
                     <h1 className="font-extrabold px-5 pb-5 text-xl">By Interaction Type</h1>
 
-                    {/* Chart  */}
+                    <ActivityChart/>
                 </div>
 
                 <div className="flex justify-center my-10">
